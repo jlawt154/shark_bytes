@@ -1,0 +1,35 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    margin:0;
+    padding:0;
+    background-color: var(--tertiary);
+}
+.site-container {
+    width:86%;
+    height:100%;
+    margin:auto;
+}
+:root {
+    --primary: #BE8868;
+    --secondary: #D5B8A1;
+    --tertiary: #E1D5CA;
+    --quaternary: #EDE2D9;
+}
+.primaryBGC {
+    background-color: var(--primary);
+}
+.secondaryBGC {
+    background-color: var(--secondary);
+}
+.tertiaryBGC {
+    background-color: var(--tertiary);
+}
+.quaternaryBGC {
+    background-color: var(--quaternary);
+}
+.spaceEven {
+    display:flex;
+    
+}
